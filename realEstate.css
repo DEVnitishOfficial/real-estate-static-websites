@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+   
+
+
+}
+
+.first-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../assets/Photos/mainBackground.png");
+    /* background-image: url(../assets/Photos/mainBackground.png); */
+    background-size: cover;
+
+}
+
+.navigation-bar {
+    display: flex;
+    gap: 200px;
+
+}
+
+.logo {
+    scale: 0.8;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-weight: 400; */
+    color: white;
+    margin-top: 45px;
+    margin-left: 100px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.first-section-mid {
+    margin: 200px;
+}
+
+.first-section-mid h1 {
+    margin-top: -100px;
+    margin-left: -70px;
+    font-size: 70px;
+    color: white;
+}
+
+.first-section-mid p {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -70px;
+}
+
+.first-section-mid button {
+    margin-top: 30px;
+    margin-left: -70px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background: #6663e9
+}
+
+.first-section-end {
+    background-color: rgba(244, 239, 239, 0.955);
+    border-radius: 40px;
+    margin: 100px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 85%;
+
+    position: relative;
+    top: 100px;
+}
+
+hr {
+    margin: 10px 100px;
+}
+
+/* designing second section */
+
+.all-real-estate h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.All-building {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+    position: relative;
+}
+
+.building img {
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.building-info {
+    margin-left: 50px;
+}
+
+.first-three-building {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-three-building {
+    display: flex;
+
+}
+
+.Third-three-building {
+    display: flex;
+
+}
+
+.building-info div img:nth-child(1) {
+    margin-top: 50px;
+}
+
+/* designing test and button */
+
+.real-estate {
+    margin-top: 10px;
+    text-align: center;
+    gap: 20px;
+}
+
+.building-info button {
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 15px 42px;
+    border-radius: 70px;
+    border: none;
+    background-color: #6663e9;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.second-real-estate {
+    margin-top: 60px;
+}
+
+.Third-real-estate {
+    margin-top: 120px;
+}
+
+.fourth-real-estate {
+    margin-top: 100px;
+}
+
+.fifth-real-estate {
+    margin-top: 50px;
+}
+
+.eight-real-estate {
+    margin-top: 50px;
+}
+
+.ninth-real-estate {
+    margin-top: 100px;
+}
+
+
+/* designing third section */
+
+.features {
+    display: flex;
+}
+
+.photo {
+    height: 500px;
+    width: 510px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: -43%;
+    margin-left: 10%;
+}
+
+.features-right {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.features-right h1 {
+    font-size: 55px;
+}
+
+.features-right p {
+    margin-top: 20px;
+    color: rgb(133, 142, 142);
+}
+
+.features-right button {
+    margin-top: 30px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: #6663e9;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+/* designing fourth section */
+.fourth-section {
+    margin-left: 50px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.fourth-section-left {
+    margin-top: 100px;
+}
+
+.fourth-section-left p {
+    margin-top: 20px;
+    color: rgb(133, 142, 142);
+}
+
+.fourth-section-left button {
+    margin-top: 50px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: #6663e9;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.fourth-section-left h1 {
+    font-size: 60px;
+    height: 200px;
+    width: 520px;
+}
+
+.fourth-section-right {
+    margin-left: 100px;
+}
+
+.fourth-section-right div img {
+    margin-left: 20%;
+}
+
+.image img {
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: -200px;
+}
+
+/* designing fifth section */
+
+.fifth-section{
+    margin: 70px;
+    text-align: center;
+    background-color: #6663e9;
+    color: white;
+    border-radius: 100px;
+}
+.fifth-section div h1{
+    font-size: 70px;
+    margin-top: 20px;
+}
+.fifth-section div p{
+    margin-top: 50px;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+.email-text{
+    padding: 20px 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: #5654d1;
+}
+.email-text input{
+    color: white;
+}
+.subscribe button{
+    padding: 15px 50px;
+    border-radius: 20px;
+    color: #6663e9;
+    border: none;
+    font-size: 18px;
+}
+.email-image img{
+    position: absolute;
+    top: 786%;
+    left: 31%;
+}
+
+ /* designing sixth section  */
+    /* Footer section   */
+
+.sixth-section{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 100px;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.sixth-section-left div img{
+  margin-bottom: 40px;
+}
+.sixth-section-left div img{
+    font-family: "Manrope";
+    font-weight: 400;
+}
+.social-media p{
+    font-family: "Manrope";
+    font-size: 25px;
+    cursor: pointer;
+}
+.social-media div img{
+ margin-right: 30px;
+}
+
+.sixth-section-right{
+    display: flex;
+    gap: 100px;
+    margin-left: 500px;
+    font-family: "Manrope";
+}
+.sixth-section-right div ul{
+    list-style: none;
+}
+.location {
+    font-size: 30px;
+    font-weight: 900;
+    gap: 200px;
+    /* margin-bottom: 40px; */
+}
+.contact{
+    font-size: 30px;
+    font-weight: 900;
+    /* margin-bottom: 40px; */
+}
+.legals{
+    font-size: 40px;
+    font-weight: 900;
+    /* margin-bottom: 40px; */
+    font-family: "Manrope";
+}
+.size li{
+    font-family: "Manrope";
+    font-size: 20px;
+    gap: 30px;
+}
+.sixth-section-right div ul li{
+    line-height: 60px;
+    cursor: pointer;
+}
+
